@@ -63,6 +63,7 @@ client.updatePresence({
 console.log("Displaying status");
 ```
 ...will look like this:
+
 ![](https://i.gyazo.com/7de9db3e038a7c458703ab30f980820c.gif)
 
 ### Showing Off Your Status
