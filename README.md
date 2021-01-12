@@ -89,7 +89,7 @@ It may be due to one of the following reasons:
 again, as Discord is still in the middle of processing your image.
 - Make sure your URLs (such as Discord Invites) start with `https://`.
 
-If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channnel.
+If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channel.
 **Comments below will not be monitored.**
 
 ### Conclusion
