@@ -46,8 +46,8 @@ client.updatePresence({
 
   // If you added any images
   // Remove this section if you don't want any images
-  largeImageKey: 'color',
-  largeImageText: 'Look at this color',
+  largeImageKey: 'red',
+  largeImageText: 'I like red',
 
   // If you wish to add any links
   // Remove this if you do not want any links
@@ -88,6 +88,7 @@ It may be due to one of the following reasons:
 - If the image is not showing, give it a few minutes. Discord takes time to process images. If you refresh the page and your images are gone, do not upload them
 again, as Discord is still in the middle of processing your image.
 - Make sure your URLs (such as Discord Invites) start with `https://`.
+- If you renamed `index.js` to something else, then edit your `.bat` file to run `node file-name-here.js` instead of `node .`.
 
 If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channel.
 **Comments below will not be monitored.**
