@@ -83,13 +83,14 @@ but wherever you want it will work.
 ### Help! My Status Isn't Showing Up!
 It may be due to one of the following reasons:
 - It will not show up if you use Discord via a web browser, or your phone.
-- If you're using buttons, try shortening the text. If you go too long, Discord will refuse to show your status.
+- If you're using buttons, try shortening the text. If your text is above 32 characters, Discord will refuse to show your status.
 - Make sure your client ID is valid.
 - If the image is not showing, give it a few minutes. Discord takes time to process images. If you refresh the page and your images are gone, do not upload them
 again, as Discord is still in the middle of processing your image.
 - Make sure your URLs (such as Discord Invites) start with `https://`.
 
-If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and ask in the #lounge channel. **Comments below will not be monitored.**
+If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channnel.
+**Comments below will not be monitored.**
 
 ### Conclusion
 That is all! Please share and star this if you found this helpful. Thank you!
