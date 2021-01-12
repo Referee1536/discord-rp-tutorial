@@ -1,4 +1,4 @@
-# Super-Customize your Discord Status to Show Off
+# Super-Customize your Discord Status
 
 ## Disclaimer
 You do NOT need any programming experience to do this! It's also worth noting that all instructions given are assuming your PC has Windows installed.
