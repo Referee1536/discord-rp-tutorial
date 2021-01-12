@@ -1,10 +1,10 @@
 # Super-Customize your Discord Status to Show Off
 
 ## Disclaimer
-Not much to say here, except that you do not need any programming experience to do this, and all instructions given are assuming your PC has Windows installed.
+You do NOT need any programming experience to do this! It's also worth noting that all instructions given are assuming your PC has Windows installed.
 
 ### Introduction
-Hello! I am Referee#1536 and I'm the developer of [Ref-bot](https://bit.ly/ref-bot-web), the first and only sports Discord bot, as well as a proud moderator of [Y0ken's Domain](http://discord.gg/nNfGqsZ), the home of Great Games and Guides. Today, I would like to show you how to spice up and customize your status on Discord to include more detail, images, links, and more. Let's get started!
+Hello! I am Referee#1536 and I'm the developer of [Ref-bot](https://bit.ly/ref-bot-web), the first and only sports Discord bot, as well as a proud moderator of [Y0ken's Domain](http://discord.gg/nNfGqsZ), the home of Great Games and Guides. Today, I would like to show you how to spice up and customize your status on Discord to include extra detail, images, links, and more. Let's get started!
 
 ### Discord
 First, you need to create an application on the [Discord Developer Portal](https://discord.com/developers). Log in, and then click on **New Application**, next to your avatar.
@@ -22,7 +22,7 @@ Now, if you would like to add images to your status, then follow the steps below
 3) Name the image. Try to make it short, as you'll need to type this in later.
 
 ### Install Node.js
-Next, we must install Node.js to be able to get our customized status up and running. Simply go to the [Node.js website](https://nodejs.org/), select your OS and download the latest version, open up the file, and follow the steps.
+Next, we must install Node.js to be able to get our customized status up and running. Simply go to the [Node.js website](https://nodejs.org/), select your OS, download the latest version, open up the installer, and follow the steps.
 
 ### Download Code and Customize
 Yes, the fun part! Now, we get to the customization of your status, so that you can show it off and your friends will wonder how your status looks so good.
@@ -72,7 +72,7 @@ Woohoo! You customized your status and you're so excited to show it to your frie
 2) Once you're inside of the folder, right-click on the name of the folder on the top, and select **Copy Address as Text**.
 3) Launch Notepad and paste the following:
 ```
-cd address-here
+cd copied-address-here
 node .
 ```
 - All this does is it navigates to the folder and starts the program using Node.js, which we installed earlier.
