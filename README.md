@@ -84,6 +84,7 @@ but wherever you want it will work.
 It may be due to one of the following reasons:
 - It will not show up if you use Discord via a web browser, or your phone.
 - If you're using buttons, try shortening the text. If your text is above 32 characters, Discord will refuse to show your status.
+- Discord only allows up to two buttons. You cannot have more than two buttons.
 - Make sure your client ID is valid.
 - If the image is not showing, give it a few minutes. Discord takes time to process images. If you refresh the page and your images are gone, do not upload them
 again, as Discord is still in the middle of processing your image.
