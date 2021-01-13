@@ -86,6 +86,7 @@ It may be due to one of the following reasons:
 - If you're using buttons, try shortening the text. If your text is above 32 characters, Discord will refuse to show your status.
 - Discord only allows up to two buttons. You cannot have more than two buttons.
 - Make sure your client ID is valid.
+- Do you have a small image but not a large image? This will cause your image to not show, as a small image cannot exist without a large image.
 - If the image is not showing, give it a few minutes. Discord takes time to process images. If you refresh the page and your images are gone, do not upload them
 again, as Discord is still in the middle of processing your image.
 - Make sure your URLs (such as Discord Invites) start with `https://`.
