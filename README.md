@@ -1,7 +1,7 @@
 # Super-Customize your Discord Status
 
 ## Disclaimer
-You do NOT need any programming experience to do this! It's also worth noting that all instructions given are assuming your PC has Windows installed.
+Although this involves coding, you do NOT need any programming experience to do this! It's also worth noting that all instructions given are assuming your PC has Windows installed.
 
 ### Introduction
 Hello! I am Referee#1536 and I'm the developer of [Ref-bot](https://bit.ly/ref-bot-web), the first and only sports Discord bot, as well as a proud moderator of [Y0ken's Domain](http://discord.gg/nNfGqsZ), the home of Great Games and Guides. Today, I would like to show you how to spice up and customize your status on Discord to include extra detail, images, links, and more. Let's get started!
@@ -27,7 +27,7 @@ Next, we must install Node.js to be able to get our customized status up and run
 ### Download Code and Customize
 Yes, the fun part! Now, we get to the customization of your status, so that you can show it off and your friends will wonder how your status looks so good.
 
-First, download my code above. Don't worry, you don't need any special programs or need years of programming experience to do this. Once downloaded, follow these steps:
+First, download my code above. Don't worry, you don't need any special programs or need years of programming experience to do this. Once downloaded, right click on the folder -> Extract All..., and click Extract. Then, follow these steps:
 1) Navigate to the dowloaded code and open the index.js file.
 - For beginners, right click on index.js -> Open With -> Choose Another App -> Other Options -> More apps -> Notepad.
 - For the programmers out there, you can open this with the app of your choice, such as Visual Studio Code.
@@ -91,6 +91,8 @@ It may be due to one of the following reasons:
 again, as Discord is still in the middle of processing your image.
 - Make sure your URLs (such as Discord Invites) start with `https://`.
 - If you renamed `index.js` to something else, then edit your `.bat` file to run `node file-name-here.js` instead of `node .`.
+- If you receive an error when trying to launch your status, read the error. For example, `Error: Cannot find module ...` means that the computer cannot find the location of
+the folder. Make sure you copied the right address and try again. If you're using a service like OneDrive, try storing the files locally.
 
 If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channel.
 **Comments below will not be monitored.**
