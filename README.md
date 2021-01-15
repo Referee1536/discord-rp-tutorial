@@ -61,8 +61,6 @@ client.updatePresence({
   // Do not remove
   instance: true,
 });
-
-console.log("Displaying status");
 ```
 ...will look like this:
 
