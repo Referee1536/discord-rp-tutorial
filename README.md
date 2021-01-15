@@ -93,7 +93,7 @@ again, as Discord is still in the middle of processing your image.
 - If you renamed `index.js` to something else, then edit your `.bat` file to run `node file-name-here.js` instead of `node .`.
 - If you receive an error when trying to launch your status, *read the error*, try to figure out what's causing the issue, and Google it.
     - For example, `Error: Cannot find module ...` means that the computer cannot find the location of the folder. Make sure you copied the right address and try again. If
-you're using a service like OneDrive, try storing the files locally
+you're using a service like OneDrive, try storing the files locally.
 - If you used Notepad: check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors.
 
 If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channel.
