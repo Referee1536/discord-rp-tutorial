@@ -32,7 +32,9 @@ First, download my code above. Don't worry, you don't need any special programs 
 - For beginners, right click on index.js -> Open With -> Choose Another App -> Other Options -> More apps -> Notepad.
 - For the programmers out there, you can open this with the app of your choice, such as Visual Studio Code.
 2) Make sure you see something like this:
-![](https://i.imgur.com/ihEGOq5.png)
+
+![](https://i.gyazo.com/9ab9ad4c9212c59a459a23987a1380d3.png)
+
 3) Get cookin'! You may customize this to your heart's content. Everything should be self-explanatory, as each line starting with `//` tells you what to do.
 For example, the following code...
 ```javascript
