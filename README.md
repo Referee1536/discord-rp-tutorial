@@ -70,9 +70,9 @@ client.updatePresence({
 Woohoo! You customized your status and you're so excited to show it to your friends! ...but how do you do that? Well, it's not super hard. I'll show you how:
 1) Go to File Explorer and navigate to the folder in which you downloaded earlier.
 2) Once you're inside of the folder, right-click on the name of the folder on the top, and select **Copy Address as Text**.
-3) Launch Notepad and paste the following:
+3) Launch Notepad, create a new document, and paste the following:
 ```
-cd copied-address-here
+cd copied_address_here
 node .
 ```
 - All this does is it navigates to the folder and starts the program using Node.js, which we installed earlier.
