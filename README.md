@@ -77,12 +77,14 @@ node .
 ```
 - All this does is it navigates to the folder and starts the program using Node.js, which we installed earlier.
 4) Click File -> Save As..., and name it whatever you want, but **make sure it ends with `.bat`**. I recommend saving it to the Desktop for easy access,
-but wherever you want it will work.
-5) Double click the `.bat` file, and you are good to go!
+but wherever you want to save it will work.
+5) Double click on the `.bat` file, and you are good to go!
 
 ### Help! My Status Isn't Showing Up!
 It may be due to one of the following reasons:
 - It will not show up if you use Discord via a web browser, or your phone.
+- Go to User Settings -> Game Activity, and make sure **Display currently running game as a status message.** is turned on.
+- Is Discord up-to-date? Close the `.bat` file, and press `Ctrl` + `R` in Discord to relaunch and check for updates.
 - If you're using buttons, try shortening the text. If your text is above 32 characters, Discord will refuse to show your status.
 - Discord only allows up to two buttons. You cannot have more than two buttons.
 - Make sure your client ID is valid.
@@ -91,10 +93,11 @@ It may be due to one of the following reasons:
 again, as Discord is still in the middle of processing your image.
 - Make sure your URLs (such as Discord Invites) start with `https://`.
 - If you renamed `index.js` to something else, then edit your `.bat` file to run `node file-name-here.js` instead of `node .`.
+- If double-clicking on the `.bat` file opens Notepad, right-click on it -> Open. If it still opens Notepad, read [this](https://stackoverflow.com/questions/4905708/batch-files-dont-run-theyre-being-opened-with-notepad/43068749#43068749).
 - If you receive an error when trying to launch your status, *read the error*, try to figure out what's causing the issue, and Google it.
     - For example, `Error: Cannot find module ...` means that the computer cannot find the location of the folder. Make sure you copied the right address and try again. If
 you're using a service like OneDrive, try storing the files locally.
-- If you used Notepad: check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors.
+- If you used Notepad, check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors.
 
 If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channel.
 **Comments below will not be monitored.**
