@@ -82,16 +82,18 @@ but wherever you want to save it will work.
 
 ### Help! My Status Isn't Showing Up!
 It may be due to one of the following reasons:
-- It will not show up if you use Discord via a web browser, or your phone.
-- Go to User Settings -> Game Activity, and make sure **Display currently running game as a status message.** is turned on.
-- Is Discord up-to-date? Close the `.bat` file, and press `Ctrl` + `R` in Discord to relaunch and check for updates.
-- If you're using buttons, try shortening the text. If your text is above 32 characters, Discord will refuse to show your status.
-- Discord only allows up to two buttons. You cannot have more than two buttons.
+- Your status will not show up if the Discord *app* (not the web version) is not running on your PC.
 - Make sure your client ID is valid.
-- Do you have a small image but not a large image? This will cause your image to not show, as a small image cannot exist without a large image.
+- Go to User Settings -> Game Activity, and make sure **Display currently running game as a status message.** is turned on.
 - If the image is not showing, give it a few minutes. Discord takes time to process images. If you refresh the page and your images are gone, do not upload them
 again, as Discord is still in the middle of processing your image.
-- Make sure your URLs (such as Discord Invites) start with `https://`.
+- Make sure your URLs for your buttons start with `http://` or `https://`.
+- Discord only allows up to two buttons. You cannot have more than two buttons.
+- If you're using buttons, try shortening the text. If your text is above 32 characters, Discord will refuse to show your status.
+- Is Discord up-to-date? Close the `.bat` file, press `Ctrl` + `R` in Discord to relaunch and check for updates, and open the `.bat` file again.
+- Do you have a small image but not a large image? This will cause your image to not show, as a small image cannot exist without a large image.
+- If you used Notepad, check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors
+that may be preventing your code from running properly.
 - If you renamed `index.js` to something else, then edit your `.bat` file to run `node file-name-here.js` instead of `node .`.
 - If double-clicking on the `.bat` file opens Notepad, right-click on it -> Open. If it still opens Notepad, double-check to make sure that it is in fact a `.bat` file
 by going to File Explorer -> View -> ✅ File name Extensions, and navigate to your `.bat` file. Read
@@ -99,7 +101,6 @@ by going to File Explorer -> View -> ✅ File name Extensions, and navigate to y
 - If you receive an error when trying to launch your status, *read the error*, try to figure out what's causing the issue, and Google it.
     - For example, `Error: Cannot find module ...` means that the computer cannot find the location of the folder. Make sure you copied the right address and try again. If
 you're using a service like OneDrive, try storing the files locally.
-- If you used Notepad, check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors.
 
 If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channel.
 **Comments below will not be monitored.**
