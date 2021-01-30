@@ -4,7 +4,10 @@
 Although this involves coding, you do NOT need any programming experience to do this! It's also worth noting that all instructions given are assuming your PC has Windows installed.
 
 ### Introduction
-Hello! I am Referee#1536 and I'm the developer of [Ref-bot](https://bit.ly/ref-bot-web), the first and only sports Discord bot, as well as a proud moderator of [Y0ken's Domain](http://discord.gg/nNfGqsZ), the home of Great Games and Guides. Today, I would like to show you how to spice up and customize your status on Discord to include extra detail, images, links, and more. Let's get started!
+Hello! I am Referee#1536 and I'm the developer of [Ref-bot](https://bit.ly/ref-bot-web), the first and only sports Discord bot; a proud moderator of
+[Y0ken's Domain](http://discord.gg/nNfGqsZ), the home of Great Games and Guides; and a staff member of [TheFranswah Studio](https://discord.gg/yCqUJs5),
+home to all technical issues for Audio, Video, Design, and more. Today, I would like to show you how to spice up and customize your status on Discord to
+include extra detail, images, links, and more. Let's get started!
 
 ### Discord
 First, you need to create an application on the [Discord Developer Portal](https://discord.com/developers). Log in, and then click on **New Application**, next to your avatar.
@@ -16,10 +19,13 @@ Once you've created an application, you should see something like this:
 
 Take note of the Client ID, as this is what you'll need later.
 
-Now, if you would like to add images to your status, then follow the steps below:
+If you would like to add images to your status, then follow the steps below:
 1) Click on **Rich Presence** on the left column, and make sure Art Assets is selected.
 2) Select **Add Image(s)**, and upload any images that you would like to show off!
 3) Name the image. Try to make it short, as you'll need to type this in later.
+
+Now that an application is created, we need to make sure that our Discord settings are configured properly, so that the status will actually show up. To do this,
+go to the Discord app -> User Settings -> Game Activity, and make sure `Display currently running game as a status message.` is turned on.
 
 ### Install Node.js
 Next, we must install Node.js to be able to get our customized status up and running. Simply go to the [Node.js website](https://nodejs.org/), select your OS, download the latest version, open up the installer, and follow the steps.
@@ -66,6 +72,12 @@ client.updatePresence({
 
 ![](https://i.gyazo.com/7de9db3e038a7c458703ab30f980820c.gif)
 
+⚠  Please take note of the following when it comes to customizing your status:
+- All URLs for buttons must start with `http://` or `https://`.
+- Discord only allows up to two buttons. You cannot have more than two buttons.
+- The text for buttons cannot exceed 32 characters.
+- A small image cannot exist without a large image.
+
 ### Showing Off Your Status
 Woohoo! You customized your status and you're so excited to show it to your friends! ...but how do you do that? Well, it's not super hard. I'll show you how:
 1) Go to File Explorer and navigate to the folder in which you downloaded earlier.
@@ -76,6 +88,7 @@ cd copied_address_here
 node .
 ```
 - All this does is it navigates to the folder and starts the program using Node.js, which we installed earlier.
+- If you renamed `index.js` to something else, then replace `node .` with `node file-name-here.js`.
 4) Click File -> Save As..., and name it whatever you want, but **make sure it ends with `.bat`**. I recommend saving it to the Desktop for easy access,
 but wherever you want to save it will work.
 5) Double click on the `.bat` file, and you are good to go!
@@ -84,17 +97,11 @@ but wherever you want to save it will work.
 It may be due to one of the following reasons:
 - Your status will not show up if the Discord *app* (not the web version) is not running on your PC.
 - Make sure your client ID is valid.
-- Go to User Settings -> Game Activity, and make sure **Display currently running game as a status message.** is turned on.
 - If the image is not showing, give it a few minutes. Discord takes time to process images. If you refresh the page and your images are gone, do not upload them
 again, as Discord is still in the middle of processing your image.
-- Make sure your URLs for your buttons start with `http://` or `https://`.
-- Discord only allows up to two buttons. You cannot have more than two buttons.
-- If you're using buttons, try shortening the text. If your text is above 32 characters, Discord will refuse to show your status.
 - Is Discord up-to-date? Close the `.bat` file, press `Ctrl` + `R` in Discord to relaunch and check for updates, and open the `.bat` file again.
-- Do you have a small image but not a large image? This will cause your image to not show, as a small image cannot exist without a large image.
 - If you used Notepad, check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors
 that may be preventing your code from running properly.
-- If you renamed `index.js` to something else, then edit your `.bat` file to run `node file-name-here.js` instead of `node .`.
 - If double-clicking on the `.bat` file opens Notepad, right-click on it -> Open. If it still opens Notepad, double-check to make sure that it is in fact a `.bat` file
 by going to File Explorer -> View -> ✅ File name Extensions, and navigate to your `.bat` file. Read
 [this](https://stackoverflow.com/questions/4905708/batch-files-dont-run-theyre-being-opened-with-notepad/43068749#43068749) if you are still having issues.
