@@ -103,8 +103,8 @@ again, as Discord is still in the middle of processing your image.
 - Is Discord up-to-date? Close the `.bat` file, press `Ctrl` + `R` in Discord to relaunch and check for updates, and open the `.bat` file again.
 - If you used Notepad, check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors
 that may be preventing your code from running properly.
-- If double-clicking on the `.bat` file does not open Command Prompt, right-click on it -> Open. If it still opens Notepad, double-check to make sure that it is in fact a `.bat` 
-file by going to File Explorer -> View -> ✅ File name Extensions, and navigate to your `.bat` file. Read
+- If double-clicking on the `.bat` file does not open Command Prompt, right-click on it -> Open. If it still doesn't open Command Prompt, double-check to make sure
+that it is in fact a `.bat` file by going to File Explorer -> View -> ✅ File name Extensions, and navigate to your `.bat` file. Read
 [this](https://stackoverflow.com/questions/4905708/batch-files-dont-run-theyre-being-opened-with-notepad/43068749#43068749) if you are still having issues.
 - If you receive an error when trying to launch your status, *read the error*, try to figure out what's causing the issue, and Google it.
     - For example, `Error: Cannot find module ...` means that the computer cannot find the location of the folder. Make sure you copied the right address and try again. If
