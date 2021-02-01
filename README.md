@@ -33,10 +33,11 @@ Next, we must install Node.js to be able to get our customized status up and run
 ### Download Code and Customize
 Yes, the fun part! Now, we get to the customization of your status, so that you can show it off and your friends will wonder how your status looks so good.
 
-First, download my code above. Don't worry, you don't need any special programs or need years of programming experience to do this. Once downloaded, right click on the folder -> Extract All..., and click Extract. Then, follow these steps:
+First, download my code above. Don't worry, you don't need any special programs or need years of programming experience to do this. Scroll up to the top of this page,
+and click on the green Code button -> Download ZIP. Once downloaded, right click on the folder -> Extract All..., and click Extract. Then, follow these steps:
 1) Navigate to the dowloaded code and open the index.js file.
 - For beginners, right click on index.js -> Open With -> Choose Another App -> Other Options -> More apps -> Notepad.
-- For the programmers out there, you can open this with the app of your choice, such as Visual Studio Code.
+- For the programmers out there, you can open this with the app of your choice, such as Visual Studio Code or Atom.
 2) Make sure you see something like this:
 
 ![](https://i.gyazo.com/9ab9ad4c9212c59a459a23987a1380d3.png)
@@ -60,7 +61,7 @@ client.updatePresence({
   // If you wish to add any links
   // Remove this if you do not want any links
   buttons: [
-    {label: 'Join my Discord Server!', url: 'https://discord.gg'},
+    {label: 'Join my Discord Server!', url: 'https://discord.gg/C85TrvGYUR'},
     {label: 'Want your status to look like this?', url: 'https://github.com/Referee1536/discord-rp-tutorial'}
   ],
 
