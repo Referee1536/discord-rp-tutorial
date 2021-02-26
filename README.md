@@ -11,7 +11,7 @@ include extra detail, images, links, and more. Let's get started!
 
 ### Discord
 First, you need to create an application on the [Discord Developer Portal](https://discord.com/developers). Log in, and then click on **New Application**, next to your avatar.
-Type in a name for the application -- this can be changed, but the name is what appears next to **Playing** on your status.
+Type in a name for the application -- this can be changed, but the name is what appears in your status.
 
 Once you've created an application, you should see something like this:
 
@@ -40,29 +40,29 @@ and click on the green Code button -> Download ZIP. Once downloaded, right click
 - For the programmers out there, you can open this with the app of your choice, such as Visual Studio Code or Atom.
 2) Make sure you see something like this:
 
-![](https://i.gyazo.com/9ab9ad4c9212c59a459a23987a1380d3.png)
+![](https://i.imgur.com/1hmsOB0.png)
 
 3) Get cookin'! You may customize this to your heart's content. Everything should be self-explanatory, as each line starting with `//` tells you what to do.
 For example, the following code...
 ```javascript
 // REMEMBER TO FILL IN THE CLIENT ID              V V V V V V V
-const client = require('discord-rich-presence')('798297420928122890');
+const client = require("discord-rich-presence")("798297420928122890");
 
 client.updatePresence({
   // Fill in the text and customize it to your liking
-  details: 'Hey there!',
-  state: 'This is awesome!',
+  details: "Hey there!",
+  state: "This is awesome!",
 
   // If you added any images
   // Remove this section if you don't want any images
-  largeImageKey: 'red',
-  largeImageText: 'I like red',
+  largeImageKey: "red",
+  largeImageText: "I like red",
 
   // If you wish to add any links
   // Remove this if you do not want any links
   buttons: [
-    {label: 'Join my Discord Server!', url: 'https://discord.gg/C85TrvGYUR'},
-    {label: 'How I got my cool status!', url: 'https://github.com/Referee1536/discord-rp-tutorial'}
+    {label: "Join my Discord Server!", url: "https://discord.gg/C85TrvGYUR"},
+    {label: "How I got my cool status!", url: "https://github.com/Referee1536/discord-rp-tutorial"}
   ],
 
   // Do not remove
@@ -74,6 +74,7 @@ client.updatePresence({
 ![](https://i.gyazo.com/7de9db3e038a7c458703ab30f980820c.gif)
 
 ⚠  Please take note of the following when it comes to customizing your status:
+- Make sure that your text is inside the quotes (`"Text here"`).
 - All URLs for buttons must start with `http://` or `https://`.
 - Discord only allows up to two buttons. You cannot have more than two buttons.
 - The text for buttons cannot exceed 32 characters.
@@ -101,6 +102,7 @@ It may be due to one of the following reasons:
 - If the image is not showing, give it a few minutes. Discord takes time to process images. If you refresh the page and your images are gone, do not upload them
 again, as Discord is still in the middle of processing your image.
 - Is Discord up-to-date? Close the `.bat` file, press `Ctrl` + `R` in Discord to relaunch and check for updates, and open the `.bat` file again.
+- Is your code up-to-date? Check out the latest [releases](https://github.com/Referee1536/discord-rp-tutorial/releases) that may fix your issue.
 - If you used Notepad, check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors
 that may be preventing your code from running properly.
 - If double-clicking on the `.bat` file does not open Command Prompt, right-click on it -> Open. If it still doesn't open Command Prompt, double-check to make sure
