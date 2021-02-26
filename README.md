@@ -16,7 +16,7 @@ Type in a name for the application, and click **Create**.
 
 Once you've created an application, you should see something like this:
 
-![](https://i.imgur.com/eK07D1L.png)
+![](https://i.imgur.com/C4pSsT6.png)
 
 Take note of the Client ID, as this is what you'll need later.
 
