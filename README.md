@@ -36,7 +36,8 @@ select your OS, download the latest version, open up the installer, and follow t
 Yes, the fun part! Now, we get to the customization of your status, so that you can show it off and your friends will wonder how your status looks so good.
 
 First, you need to download the code to your system. Don't worry, you don't need any special programs or need years of programming experience to do this. Go to the
-[releases](https://github.com/Referee1536/discord-rp-tutorial/releases) page, then select Source code (zip) under Assets. Once it finishes downloading, follow these steps:
+[releases](https://github.com/Referee1536/discord-rp-tutorial/releases) page, then select Source code (zip) under Assets. Once it finishes downloading, right click on
+the folder -> Extract All..., and click Extract. Then, follow these steps:
 1) Navigate to the dowloaded code and open the index.js file.
 - For beginners, right click on index.js -> Open With -> Choose Another App -> Other Options -> More apps -> Notepad.
 - For the programmers out there, you can open this with the app of your choice, such as Visual Studio Code or Atom.
