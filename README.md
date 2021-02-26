@@ -110,7 +110,7 @@ that it is in fact a `.bat` file by going to File Explorer -> View -> ✅ File n
     - For example, `Error: Cannot find module ...` means that the computer cannot find the location of the folder. Make sure you copied the right address and try again. If
 you're using a service like OneDrive, try storing the files locally.
 
-If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and create a Miscellaneous Help Ticket, found in the #contact-us channel.
+If none of this helps, please join my [Discord Server](https://discord.gg/C85TrvGYUR) and DM our bot, Robert 📬#2630.
 **Comments below will not be monitored.**
 
 ### Conclusion
