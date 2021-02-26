@@ -12,7 +12,7 @@ include extra detail, images, links, and more. Let's get started!
 
 ### Discord
 First, you need to create an application on the [Discord Developer Portal](https://discord.com/developers). Log in, and then click on **New Application**, next to your avatar.
-Type in a name for the application and click **Create**.
+Type in a name for the application, and click **Create**.
 
 Once you've created an application, you should see something like this:
 
@@ -29,13 +29,14 @@ Now that an application is created, we need to make sure that our Discord settin
 go to the Discord app -> User Settings -> Game Activity, and make sure `Display currently running game as a status message.` is turned on.
 
 ### Install Node.js
-Next, we must install Node.js to be able to get our customized status up and running. Simply go to the [Node.js website](https://nodejs.org/), select your OS, download the latest version, open up the installer, and follow the steps.
+Next, we must install Node.js to be able to get our customized status up and running. Simply go to the [Node.js website](https://nodejs.org/),
+select your OS, download the latest version, open up the installer, and follow the steps.
 
 ### Download Code and Customize
 Yes, the fun part! Now, we get to the customization of your status, so that you can show it off and your friends will wonder how your status looks so good.
 
-First, download my code above. Don't worry, you don't need any special programs or need years of programming experience to do this. Scroll up to the top of this page,
-and click on the green Code button -> Download ZIP. Once downloaded, right click on the folder -> Extract All..., and click Extract. Then, follow these steps:
+First, you need to download the code to your system. Don't worry, you don't need any special programs or need years of programming experience to do this. Go to the
+[releases](https://github.com/Referee1536/discord-rp-tutorial/releases) page, then select Source code (zip) under Assets. Once it finishes downloading, follow these steps:
 1) Navigate to the dowloaded code and open the index.js file.
 - For beginners, right click on index.js -> Open With -> Choose Another App -> Other Options -> More apps -> Notepad.
 - For the programmers out there, you can open this with the app of your choice, such as Visual Studio Code or Atom.
@@ -103,7 +104,7 @@ It may be due to one of the following reasons:
 - If the image is not showing, give it a few minutes. Discord takes time to process images. If you refresh the page and your images are gone, do not upload them
 again, as Discord is still in the middle of processing your image.
 - Is Discord up-to-date? Close the `.bat` file, press `Ctrl` + `R` in Discord to relaunch and check for updates, and open the `.bat` file again.
-- Is your code up-to-date? Check out the latest [releases](https://github.com/Referee1536/discord-rp-tutorial/releases) that may fix your issue.
+- Is your code up-to-date? Check out the latest [releases](https://github.com/Referee1536/discord-rp-tutorial/releases) and update if a new release is available.
 - If you used Notepad, check out [Esprima](https://esprima.org/demo/validate.html) and paste your code inside of the text field. This will check for any syntax errors
 that may be preventing your code from running properly.
 - If double-clicking on the `.bat` file does not open Command Prompt, right-click on it -> Open. If it still doesn't open Command Prompt, double-check to make sure
