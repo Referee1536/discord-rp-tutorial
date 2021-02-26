@@ -12,7 +12,7 @@ include extra detail, images, links, and more. Let's get started!
 
 ### Discord
 First, you need to create an application on the [Discord Developer Portal](https://discord.com/developers). Log in, and then click on **New Application**, next to your avatar.
-Type in a name for the application -- this can be changed, but the name is what appears in your status.
+Type in a name for the application and click **Create**.
 
 Once you've created an application, you should see something like this:
 
