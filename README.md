@@ -1,7 +1,8 @@
 # Super-Customize your Discord Status
 
 ## Disclaimer
-Although this involves coding, you do NOT need any programming experience to do this! It's also worth noting that all instructions given are assuming your PC has Windows installed.
+Although this involves coding, you do NOT need any programming experience to do this! (As long as you know how to follow instructions, of course.)
+It's also worth noting that all instructions given are assuming your PC has Windows installed.
 
 ### Introduction
 Hello! I am Referee#1536 and I'm the developer of [Ref-bot](https://bit.ly/ref-bot-web), the first and only sports Discord bot; a proud moderator of
