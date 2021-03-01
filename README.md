@@ -16,7 +16,7 @@ Type in a name for the application, and click **Create**.
 
 Once you've created an application, you should see something like this:
 
-![](https://i.imgur.com/C4pSsT6.png)
+![](https://i.imgur.com/eK07D1L.png)
 
 Take note of the Client ID, as this is what you'll need later.
 
@@ -43,7 +43,7 @@ the folder -> Extract All..., and click Extract. Then, follow these steps:
 - For the programmers out there, you can open this with the app of your choice, such as Visual Studio Code or Atom.
 2) Make sure you see something like this:
 
-![](https://i.imgur.com/1hmsOB0.png)
+![](https://i.imgur.com/C4pSsT6.png)
 
 3) Get cookin'! You may customize this to your heart's content. Everything should be self-explanatory, as each line starting with `//` tells you what to do.
 For example, the following code...
